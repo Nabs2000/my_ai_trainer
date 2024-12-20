@@ -1,0 +1,63 @@
+# React (Frontend)
+/node_modules
+/.pnp
+.pnp.js
+/build
+*.log
+*.lock
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+coverage/
+.vscode/
+.idea/
+
+# Django (Backend)
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.DS_Store
+.env
+*.venv/
+*.swp
+.mypy_cache/
+.db/
+*.log
+*.pot
+staticfiles/
+media/
+local_settings.py
+
+# MongoDB
+*.lock
+mongod.lock
+data/db
+data/log
+
+# General
+*.bak
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+*.seed.json
+
+# Ignore environment and configuration files
+.env
+*.ini
+*.config
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
